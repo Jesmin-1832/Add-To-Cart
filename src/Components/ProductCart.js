@@ -9,7 +9,6 @@ import { useDispatch } from 'react-redux';
 import {  deletecart } from "../Redux/Actions/ProductAction";
 
 function ProductCart() {
- 
     let [cart, setCart] = useState([]);
     let sum = 0;
     let dispatch = useDispatch();
