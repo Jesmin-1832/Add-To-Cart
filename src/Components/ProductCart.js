@@ -6,7 +6,7 @@ import Table from 'react-bootstrap/Table';
 import { Link } from "react-router-dom"
 import { IoArrowBackCircle } from "react-icons/io5";
 import { useDispatch } from 'react-redux';
-import {  deletecart } from "../Redux/Actions/ProductAction";
+import {  deletecart } from "../Redux/Actions/ProductAction"; 
    
 function ProductCart() {
     let [cart, setCart] = useState([]);
