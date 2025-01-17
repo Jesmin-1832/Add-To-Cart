@@ -7,7 +7,7 @@ import { Link } from "react-router-dom"
 import { IoArrowBackCircle } from "react-icons/io5";
 import { useDispatch } from 'react-redux';
 import {  deletecart } from "../Redux/Actions/ProductAction";
- 
+  
 function ProductCart() {
     let [cart, setCart] = useState([]);
     let sum = 0;
